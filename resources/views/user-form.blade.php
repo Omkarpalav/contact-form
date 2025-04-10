@@ -1,6 +1,9 @@
 <div>
    <h1>Add New User</h1>
 
+<h3> {{URL::current()}}</h3>
+
+<!-- <h3> {{URL::full()}}</h3> -->
    <!-- @if($errors->any())
         @foreach($errors->all() as $error)
             <div style="color:red">
@@ -9,7 +12,7 @@
         @endforeach
    @endif -->
 
-
+   <!-- <h3>{{URL::previous()}}</h3> -->
 
 
    <form action="adduser" method="post">
